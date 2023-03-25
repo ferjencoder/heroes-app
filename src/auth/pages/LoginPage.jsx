@@ -13,7 +13,7 @@ export const LoginPage = () => {
 
         const lastPath = localStorage.getItem( 'lastPath' ) || '/';
 
-        login( 'Fernanda Jensen' )
+        login( 'ferJen' )
 
         navigate( lastPath, {
             replace: true
@@ -27,7 +27,7 @@ export const LoginPage = () => {
             <hr />
 
             <button
-                className="btn btn-primary"
+                className="btn btn-danger"
                 onClick={onLogin}
             >
                 Login
