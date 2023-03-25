@@ -1,7 +1,5 @@
 
 
-//src/assets/heroes/dc-black.jpg
-
 import { Link } from "react-router-dom"
 
 
@@ -12,7 +10,6 @@ const CharachtersByHero = ( { alter_ego, characters } ) => {
         : <p>{characters}</p>
 
 };
-
 
 export const HeroCard = ( {
     id,
